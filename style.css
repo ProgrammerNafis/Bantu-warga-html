@@ -4,3 +4,138 @@
     box-sizing: border-box;
     
 }
+
+
+.nav-bar{
+    width: 100%;
+    height: 92px;
+    box-shadow: 0px 2.63px 10.02px 0px #7A757506;
+   margin: 0 auto;
+    box-shadow: 0px 21px 80px 0px #7A75750D;
+    background-color: #FFFFFF;
+
+
+}
+
+.flex-nav{
+    width: 1300px;
+    height: 92px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-list-itm{
+    display: flex;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-size: 16px;
+    color: #656161;
+    margin-right: 17rem;
+    margin-top: 6px;
+
+}
+
+.nav-list-itm > li{
+    list-style-type: none;
+    margin-right: 4rem;
+}
+
+.see-demo-btn-nav{
+    width: 140px;
+    height: 50px;
+    /* margin-top: 7px; */
+   
+    padding: 13px 28px 13px 28px;
+    background-color: #5669FF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 16px;
+
+  
+
+}
+
+
+.hero-section1{
+    width: 1300px;
+    
+    display: flex;
+    margin: 0 auto;
+   justify-content: space-between;
+   
+   
+}
+
+
+.hero-section1 .hs-title{
+    width: 438px;
+    margin-top: 230px;
+    font-family: "Poppins";
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    height: 156px;
+
+}
+
+.hero-section1 .hs-text{
+    width: 591px;
+    margin-top: 0.6rem;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    height: 48px;
+
+}
+
+
+.hero-section1 .hs-input-box{
+    width: 405px;
+   
+    border-radius: 10px;
+    height: 56px;
+    outline: none;
+   border: none;
+   margin-top: 1rem;
+}
+
+.hero-section1 .hs-submit{
+    width: 54px;
+    
+    padding: 12px 16px 13.15px 16px;
+   
+    border-radius: 10px;
+   background-color: #5669FF;
+   color: white;
+    height: 37px;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 127px;
+    left: 346px;
+    margin-top: 1rem;
+
+}
+
+.hero-section1 .hs-input-box::placeholder{
+    padding-left: 10px;
+}

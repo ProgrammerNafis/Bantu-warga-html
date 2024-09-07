@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bantu Warga - developed by Nafis</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <!--navbar start-->
-      <nav>
-        <div>
+      <nav class="nav-bar">
+        <div class="flex-nav">
           <div>
-            <img src="./assests/Bantu Warga logo.png" alt="" />
+            <img src="./assests/Bantu Warga logo.png" width="101px" height="62px" alt="" />
           </div>
           <div>
-            <ul>
-              <li>Home</li>
+            <ul class="nav-list-itm">
+              <li style="color: #5669FF;">Home</li>
               <li>Pricing</li>
               <li>About</li>
               <li>Contact</li>
             </ul>
           </div>
           <div>
-            <button>See demo</button>
+            <button class="see-demo-btn-nav">See demo</button>
           </div>
         </div>
       </nav>
@@ -31,10 +35,10 @@
       <!--navbar end-->
     </header>
       <!--hero section start-->
-      <section>
+      <section class="hero-section1">
         <div>
-          <h1>
-            Saling bantu
+          <h1 class="hs-title">
+            <span style="color: #5669FF;">Saling</span> bantu
             <span>
               <svg
                 width="51"
@@ -49,24 +53,28 @@
                 />
               </svg>
             </span>
-            sesama Warga
+            sesama <span style="color: #5669FF;">Warga</span>
           </h1>
-          <p>
+          <p class="hs-text">
             Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan
             konsep kesehatan yang berkaitan dengan keadaan covid sekarang
           </p>
-          <input
+          <input class="hs-input-box"
             type="text"
             name="email"
             id="email"
             placeholder="Enter Adress"
           />
-          <input type="submit" value=">>>" />
+          <input class="hs-submit" type="submit" value=">>>" />
         </div>
-        <div>
-          <img src="./assests/Welcome.png" alt="" />
-          <img src="./assests/Vitamin.png" alt="" />
-        </div>
+      
+      <div>
+        <img src="./assests/Frame 378.png" style="width: 809.44px;
+        height: 790.39px;
+        
+        " alt="">
+      </div>
+      
       </section>
 
       <!--hero section end-->
