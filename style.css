@@ -5,6 +5,9 @@
     
 }
 
+body{
+    font-family: "Poppins";
+}
 
 .nav-bar{
     width: 100%;
@@ -72,7 +75,7 @@
 
 .hero-section1{
     width: 1300px;
-    
+    z-index: 222;
     display: flex;
     margin: 0 auto;
    justify-content: space-between;
@@ -139,3 +142,118 @@
 .hero-section1 .hs-input-box::placeholder{
     padding-left: 10px;
 }
+
+.hero-section1 .img-hero-sec1{
+    position: relative;
+    z-index: -21;
+   
+}
+
+
+.info-sec{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+.info-sec .info-sec-title{
+   text-align: center;
+    height: 78px;
+    
+    font-weight: 600;
+    line-height: 78px;
+    letter-spacing: 0.05em;
+   
+    margin: 0 auto;
+    font-size: 52px;
+
+}
+
+
+.info-sec .info-sec-text{
+    width: 543px;
+    height: 48px;
+    font-size: 16px;
+    margin: 1rem auto 0rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+
+.info-sec .info-sec-flex{
+    display: flex;
+    text-align: center;
+    margin-top: 4rem;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+   
+}
+
+
+.info-sec .info-sec-cards{
+    width: 390px;
+    height: 245px;
+    box-shadow: 0px 1.4px 12.97px 0px rgba(118, 111, 111, 0.0364);
+
+    box-shadow: 0px 4.69px 43.56px 0px rgba(118, 111, 111, 0.0536);
+    
+    box-shadow: 0px 21px 195px 0px rgba(118, 111, 111, 0.09);
+    padding: 4rem;
+    border: 1px solid rgba(243, 241, 241, 1);   
+    border-radius: 10px;
+}
+
+.info-sec-cards > img{
+    margin-top: -2rem;
+}
+
+
+.info-sec-cards .info-sec-cards-title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    margin: 1rem 0rem;
+
+    
+
+}
+
+
+.info-sec-cards .info-sec-cards-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+
+}
+
+
+.info-sec .info-sec-btn{
+    width: 143px;
+    height: 43px;
+    border-radius: 10px;
+    background: rgba(86, 105, 255, 1);
+
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    
+    
+    color: rgba(255, 255, 255, 1);
+    
+    border: none;
+    margin: 3rem 45% 0;
+
+
+}
+
